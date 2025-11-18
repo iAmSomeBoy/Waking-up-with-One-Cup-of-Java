@@ -1,4 +1,3 @@
-package academics.class01.codes_c1_c6.chap_06;
 class Methods
 {
 	public static void main ( String[] args )
