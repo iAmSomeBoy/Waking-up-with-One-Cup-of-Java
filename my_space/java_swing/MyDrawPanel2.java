@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-class MyDrawPanel extends JPanel {
+class MyDrawPanel2 extends JPanel {
     public static void main(String[] args) {
 
         JFrame frame = new JFrame("Draw Panel");
@@ -14,7 +14,9 @@ class MyDrawPanel extends JPanel {
     }
 
     public void paintComponent(Graphics g) {
+        Image image= new ImageIcon("littleanimal2.jpg").getImage();
+        g.drawImage(image, 0, 0, this);
         g.setColor(Color.orange);
-        g.fillRect(5, 5, 100, 200);
+        g.fillRect(20, 30, 100, 200);
     }
 }
