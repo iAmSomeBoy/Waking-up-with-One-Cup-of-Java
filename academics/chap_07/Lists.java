@@ -1,4 +1,3 @@
-package academics.chap_07;
 import java.util.ArrayList ;
 
 class Lists 
