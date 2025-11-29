@@ -7,6 +7,7 @@ class MyDrawPanel extends JPanel {
         JFrame frame = new JFrame("Draw Panel");
         JButton button= new JButton();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().add(button);
         frame.getContentPane().add(new MyDrawPanel());        
         frame.setSize(750, 800);
         frame.setVisible(true);
