@@ -1,4 +1,4 @@
-public class _1_Of76 {
+public class _1_Of76 extends Clowns {
     public static void main(String args[]){
         Nose[] i= new Nose[3];
         i[0]= new Acts();
