@@ -4,7 +4,9 @@ public class ArrayListExample {
         ArrayList a1= new ArrayList();
         a1.add("Jack");
         a1.add("Tyler");
-        Iterator itr= a1.Iterator();
-        
+        Iterator<String> itr= a1.iterator();   //itr interface type কিন্তু object ArrayList-এর internal Iterator class এর
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
     }
 }
