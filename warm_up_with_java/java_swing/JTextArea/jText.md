@@ -1,0 +1,1 @@
+It allows multilines general text in Frame.

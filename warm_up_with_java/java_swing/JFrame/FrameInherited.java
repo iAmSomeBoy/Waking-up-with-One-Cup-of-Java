@@ -3,7 +3,7 @@ import javax.swing.*;
 class framE extends JFrame{
     JFrame f;
     framE(){
-        JButton b= new JButton("JFrame Button");
+        JButtoN b= new JButtoN("JFrame Button");
         b.setBounds(50, 20, 100, 25);
 
         add(b);

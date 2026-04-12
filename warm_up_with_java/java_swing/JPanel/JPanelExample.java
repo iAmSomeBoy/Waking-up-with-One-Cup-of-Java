@@ -5,7 +5,7 @@ class jPanel{
         JFrame frame= new JFrame("Panel is for Partition");
         JPanel panel= new JPanel();
         panel.setBounds(40, 20, 200, 200);
-        JButton b= new JButton("panel Area");
+        JButtoN b= new JButtoN("panel Area");
         b.setBounds(50 ,60,20 , 10);
         panel.add(b);
         frame.add(panel);

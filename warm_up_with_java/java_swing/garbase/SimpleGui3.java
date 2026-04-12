@@ -12,7 +12,7 @@ public class SimpleGui3 implements ActionListener{
     public void go(){
         frame= new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JButton button= new JButton("Change Color");
+        JButtoN button= new JButtoN("Change Color");
         button.addActionListener(this);
 
         MyDrawPanel drawPanel = new MyDrawPanel();

@@ -16,13 +16,13 @@ public class TwoButtons {
         frame= new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JButton labelButton= new JButton("Change Label");
+        JButtoN labelButton= new JButtoN("Change Label");
         labelButton.addActionListener(new LabelListener());
 
         label= new JLabel("I'm a label");
         MyDrawPanel drawPanel = new MyDrawPanel();
 
-        JButton colorButton = new JButton("Change Color");
+        JButtoN colorButton = new JButtoN("Change Color");
         colorButton.addActionListener(new ColorListener());
 
         frame.getContentPane().add(BorderLayout.SOUTH, colorButton);
