@@ -1,0 +1,7 @@
+- https://www.softwaretestinghelp.com/java/java-swing-tutorial/
+- https://www.edureka.co/blog/java-swing/
+- https://projectsforeveryone.com/project/electricity-bill-program-in-java/
+- https://geeksprogramming.com/java-swing-tutorial-for-beginners/
+- https://www.javaskool.com/swing/
+- https://raffsalvetti.dev/2023/09/theming-java-swing-applications/
+- 
