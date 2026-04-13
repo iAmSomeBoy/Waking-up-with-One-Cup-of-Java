@@ -30,7 +30,7 @@ class GridLayoutClass{
 
         //GridLayout: row, col
         frame.setLayout(new GridLayout(3, 3));
-        frame.setSize(500, 500);
+        frame.setSize(300, 300);
         frame.setVisible(true);
     }
 }
