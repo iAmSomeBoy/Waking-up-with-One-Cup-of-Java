@@ -1,0 +1,3 @@
+An event can be defined as a change of state of an object. From the GUI point of view, an event occurs when the end-user interacts with the GUI components. The events that get triggered in the GUI can be the click of a button, scrolling, selecting list items, changing text, etc.
+
+Event occurring in the GUI listed above are mostly foreground events. We can also have some background events like background operation completion, timer expiration, etc.
