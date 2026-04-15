@@ -1,4 +1,4 @@
-public class Example2 {
+public class try_catch_Example2 {
     public static void main(String[] args) {
         try{
             int[] a= new int[7];
