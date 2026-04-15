@@ -11,7 +11,7 @@ public class try_catch_multiple {
         catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Accessing array elements outside of the limit");
         }
-        catch(Exception e){
+        catch(Exception e){             //catch(Exception e) is generic exception catch block that kept in thelast
             System.out.println("Some other Exception");
         }
 
