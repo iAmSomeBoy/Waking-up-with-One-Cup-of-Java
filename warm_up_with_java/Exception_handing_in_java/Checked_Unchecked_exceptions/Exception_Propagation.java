@@ -2,6 +2,8 @@
 Exception propagation is a process by which compiler ensures that
 the exception is handled somewhere(possibly in the caller function or somewhere else),
 if it is not handled where the exception occurs.
+
+* exception propagation only happens in unchecked exceptions (runtime exception based on user input) and not in checked exceptions
 */
 
 import java.util.jar.JarEntry;
