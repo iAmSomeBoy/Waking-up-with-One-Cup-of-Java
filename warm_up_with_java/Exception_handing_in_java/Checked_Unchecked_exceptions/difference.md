@@ -1,0 +1,1 @@
+There are two types of exceptions: checked exception and unchecked exception. In this guide, we will discuss them. The main difference between checked and unchecked exception is that the checked exceptions are checked at compile-time while unchecked exceptions are checked at runtime.
