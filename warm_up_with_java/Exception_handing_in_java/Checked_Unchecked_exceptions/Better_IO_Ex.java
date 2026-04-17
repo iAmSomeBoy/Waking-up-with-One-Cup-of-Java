@@ -11,12 +11,15 @@ public class Better_IO_Ex {
 
         }
 
-        int k;
         try{
-            while((k= fis.read())!= -1){
-                System.out.println((char)k);
+            if (fis != null) {
+                BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+                String line;
+                while((line = br.readLine()) != null){
+                    System.out.println(line);
+                }
+                br.close();
             }
-            fis.close();
         }
         catch(IOException e2){
             System.out.println("Input Output error occurred:"+ e2);
