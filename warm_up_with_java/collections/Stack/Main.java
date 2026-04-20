@@ -13,7 +13,7 @@ public class Main{
 
         System.out.println("Stack elements: ");
         for(String str: stack){
-            System.out.println(str);
+            System.out.println(str); //print
         }
 
     }
