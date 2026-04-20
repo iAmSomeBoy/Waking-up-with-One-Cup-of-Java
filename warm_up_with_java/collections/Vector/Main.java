@@ -9,7 +9,7 @@ public class Main {
 
         Iterator<String> itr= v.iterator();
         while(itr.hasNext()){
-            System.out.println(itr.next());
+            System.out.println(itr.next()); //print
         }
 
     }
