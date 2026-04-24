@@ -14,25 +14,23 @@
 
 
 
-import java.io.*;
 import java.util.*;
 public class three_TreeSet {
     public static void main(String[] args){
-        Set<String> rolls= new TreeSet<>();
+        Set<Integer> rolls= new TreeSet<>();
         Scanner sc= new Scanner(System.in);
 
-        System.out.println("Enter Number of Students: ");
+        System.out.println("Enter Number of Students in total: ");
         int n= sc.nextInt();
-        sc.nextLine();
-
         for(int i= 0; i< n; i++){
             System.out.println("Enter roll numbers: ");
-            String roll= sc.nextLine();
+            int roll= sc.nextInt();
             rolls.add(roll); //duplicate value automatically ignored
         }
 
         System.out.println("Present students' rolls: "+ rolls);
         System.out.println("Total attendance: "+ rolls.size());
+        sc.close();
 
     }
 

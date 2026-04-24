@@ -38,7 +38,6 @@ public class one {
         
         */
         System.out.print("Enter name to search: ");
-
         String findName= sc.nextLine();
         if(list.contains(findName)){
             System.out.println("Name found at index of " + list.indexOf(findName));
