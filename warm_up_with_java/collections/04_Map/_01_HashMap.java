@@ -1,3 +1,7 @@
+//Map will work with pair elements
+//Map<String, Iteger> pair
+//Map<Key-type, Value-type>
+//Every key items will be unique->duplicate not allowed or ignored
 
 
 import java.util.*;
