@@ -1,3 +1,10 @@
+/*
+Hospital Emergency Room
+Severe patient gets treatment first.
+Even if a less severe patient came earlier, they wait.
+This is exactly PriorityQueue
+*/
+
 import java.util.*;
 
 class Patient {
